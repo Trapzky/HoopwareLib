@@ -41,7 +41,6 @@ function windows:Create(options)
     local mainCorner = Instance.new("UICorner")
     local maincorner_3 = Instance.new("UICorner")
     local Title = Instance.new("TextLabel")
-    local Title2 = Instance.new("ImageLabel")
     local Game = Instance.new("TextLabel")
     local Exit = Instance.new("ImageButton")
     local topBar = Instance.new("Frame")
@@ -153,14 +152,6 @@ function windows:Create(options)
     Title.TextSize = 14.000
     Title.TextWrapped = true
     Title.TextXAlignment = Enum.TextXAlignment.Left
-
-    Title2.Parent = backFrame
-    Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Title2.BackgroundTransparency = 1.000
-    Title2.Position = UDim2.new(0.010118044, 0, 0, 0)
-    Title2.Size = UDim2.new(0, 33, 0, 33)
-    Title2.Image = "http://www.roblox.com/asset/?id=10462853472"
-    Title2.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
     Game.Name = "game"
     Game.Parent = backFrame
