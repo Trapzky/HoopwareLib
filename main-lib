@@ -154,13 +154,13 @@ function windows:Create(options)
     Title.TextWrapped = true
     Title.TextXAlignment = Enum.TextXAlignment.Left
 
-    ImageLabel.Parent = backFrame
-    ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    ImageLabel.BackgroundTransparency = 1.000
-    ImageLabel.Position = UDim2.new(0.020118044, 0, 0, 0)
-    ImageLabel.Size = UDim2.new(0, 676, 0, 352)
-    ImageLabel.Image = "http://www.roblox.com/asset/?id=7429253275"
-    ImageLabel.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    Title2.Parent = backFrame
+    Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title2.BackgroundTransparency = 1.000
+    Title2.Position = UDim2.new(0.010118044, 0, 0, 0)
+    Title2.Size = UDim2.new(0, 676, 0, 352)
+    Title2.Image = "http://www.roblox.com/asset/?id=10462853472"
+    Title2.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
     Game.Name = "game"
     Game.Parent = backFrame
